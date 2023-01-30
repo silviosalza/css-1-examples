@@ -1,3 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 #hellocss{
     color: aqua;
     
@@ -5,18 +16,24 @@
 
 
 .blutitle{
-    color: blue;
+    color: rgb(0, 0, 255, 0.3);
 }
 
 .redtitle{
     color: red;
+    text-align: center;
+    text-decoration: underline;
 }
 .largetitle{
     font-size: xx-large;
-    background-color: black;
+    background-color: gainsboro;
+ 
 }
 
 .mainheader{
     height: 200px;
     background-image: url(../img/2447.jpg);
+    background-size: 15% 50%;
+    background-repeat: no-repeat;
+    border: 3px dashed green;
 }
