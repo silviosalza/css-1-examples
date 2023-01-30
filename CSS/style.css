@@ -1,0 +1,22 @@
+#hellocss{
+    color: aqua;
+    
+}
+
+
+.blutitle{
+    color: blue;
+}
+
+.redtitle{
+    color: red;
+}
+.largetitle{
+    font-size: xx-large;
+    background-color: black;
+}
+
+.mainheader{
+    height: 200px;
+    background-image: url(../img/2447.jpg);
+}
